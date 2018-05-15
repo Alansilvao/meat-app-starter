@@ -8,6 +8,9 @@
     "engines": {
     "node": "8.9.4"
   },
+  "engines": {
+    "npm": "5.6.x"
+  },
     "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\" --project src/tsconfig.json --type-check && tslint \"e2e/**/*.ts\" --project e2e/tsconfig.json --type-check",
     "test": "ng test",
